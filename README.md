@@ -79,14 +79,19 @@ Troubleshooting
 
 License
 
-- No license indicated in this repository. If you intend to open source this project, add a `LICENSE` file with your chosen license.
+This project is licensed under the MIT License. See the `LICENSE` file at the repository root for full terms.
+
+Continuous integration
+
+- A GitHub Actions workflow (`.github/workflows/maven.yml`) is included and runs `mvn test` on pushes and pull requests to `master`.
 
 Author
 
 - Kester Nkese
 
-If you want, I can also:
+Next steps (optional)
 
-- add a `LICENSE` file (MIT/Apache/BSD),
-- create CI configuration (GitHub Actions) to build and test on push, or
-- run `mvn package` and show the artifacts produced.
+- Add a license badge to the `README.md` (e.g. MIT).
+- Adjust the workflow Java version to match the project `pom.xml` if needed.
+- Extend CI to run `mvn package` and upload build artifacts.
+- I can also run `mvn package` locally and report the produced artifacts if you want.
